@@ -10,5 +10,15 @@ public class SortingMain16 {
         dataurut1.bubbleSort();
         System.out.println("Data sudah diurutkan dengan BUBBLE SORT (ASC)");
         dataurut1.tampil();
+        System.out.println();
+
+        int b[] = {30, 20, 2, 8, 14};
+        Sorting16 dataurut2 = new Sorting16(b, b.length);
+
+        System.out.println("Data awal 2");
+        dataurut2.tampil();
+        dataurut2.SelectionSort();
+        System.out.println("Data sudah diurutkan dengan SELECTION SORT (ASC)");
+        dataurut2.tampil();
     }
 }
