@@ -28,4 +28,27 @@
 4. Perintah ini berfungsi untuk menggeser elemen ke kanan satu posisi, untuk membuat "ruang kosong" agar 
    elemen temp bisa disisipkan di posisi yang tepat. Tanpa pergeseran ini, elemen lama akan tertimpa sebelum sempat dipindah.
 
+***Praktikum 2***
+1.	Perhatikan perulangan di dalam bubbleSort() di bawah ini:
+    for (int i = 0; i < listMhs.length-1; i++) {
+        for (int j = 1; j < listMhs.length-i; j++) {
+    }
+}
+a.	Mengapa syarat dari perulangan i adalah i<listMhs.length-1 ?
+b.	Mengapa syarat dari perulangan j adalah j<listMhs.length-i ?
+c.	Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i  akan berlangsung? Dan ada 
+    berapa Tahap bubble sort yang ditempuh?
+2.	Modifikasi program diatas dimana data mahasiswa bersifat dinamis (input dari keyborad) yang terdiri 
+    dari nim, nama, kelas, dan ipk!
+
+***Jawaban Praktikum 2***
+1a. Karena perulangan i menandai tahap bubble sort. Kalau ada 5 data hanya butuh 4 tahap untuk memastikan 
+    semua data terurut, dan di tahap terakhir elemen sudah otomatis di posisi yang benar. Makanya pakai length-1, jadi tidak perlu sampai length.
+1b. Karena setiap selesai 1 tahap (1 putaran i), elemen terbesar sudah "menggelembung" ke posisi paling 
+    akhir dan tidak perlu dibandingkan lagi. 
+1c. - Perulangan i berlangsung sebanyak 49 kali (dari i = 0 sampai i = 48, karena syaranya i < 50-1).
+    - Tahap bubble sort yang yang ditempuh juga 49 tahap.
+2. Sudah commit.
+
+
     
