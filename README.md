@@ -63,4 +63,9 @@ Untuk apakah proses tersebut, jelaskan!
 ***Jawaban Pertanyaan poin 5.3.7***
 idxMin menyimpan posisi mahasiswa dengan IPK terkecil di sisa array yang belum terurut. Indeks ini kemudian digunakan untuk menukar elemen di posisi i dengan elemen terkecil tersebut, sehingga data terurut dari IPK terkecil ke terbesar (ASC).
 
+***Pertanyaan poin 5.4.3***
+Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
+
+***Jawaban Pertanyaan poin 5.4.3***
+Sudah di commit dengan judul Modifikasi Insertion Sort
     
