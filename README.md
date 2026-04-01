@@ -50,5 +50,17 @@ c.	Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i  ak
     - Tahap bubble sort yang yang ditempuh juga 49 tahap.
 2. Sudah commit.
 
+***Pertanyaan poin 5.3.7***
+Di dalam method selection sort, terdapat baris program seperti di bawah ini:
+int idxMin = i;
+for (int j = i+1; j < listMhs.length; j++) {
+    if (listMhs[j].ipk < listMhs[idxMin].ipk) {
+        idxMin = j;
+    }
+}
+Untuk apakah proses tersebut, jelaskan!
+
+***Jawaban Pertanyaan poin 5.3.7***
+idxMin menyimpan posisi mahasiswa dengan IPK terkecil di sisa array yang belum terurut. Indeks ini kemudian digunakan untuk menukar elemen di posisi i dengan elemen terkecil tersebut, sehingga data terurut dari IPK terkecil ke terbesar (ASC).
 
     
